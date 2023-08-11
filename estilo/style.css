@@ -1,0 +1,465 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor0: #E1E3E7;
+    --cor1: #FDA300;
+    --cor2: #FA841A;
+    --cor3: #004DA9;
+    --cor4: #024089;
+    --cor5: #052244;
+}
+
+body {
+    background-color: var(--cor0);
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+
+}
+
+/* PADRÃO HEADER E MENU*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 80px;
+    background-color: var(--cor1);
+    padding: 10px;
+}
+
+header img {
+    max-width: 194px;
+    max-height: 50px;
+    margin: 0px 10px;
+}
+
+header .menu {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;   
+    margin-right: 20px;
+}
+
+header a {
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 9px 0px;
+    margin: 5px 5px;
+    color: var(--cor5);
+    font-weight: 700;
+    border-radius: 10px;
+    transition: all .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+/* INTERAÇÃO DO MENU*/
+
+header a:hover {
+    background-color: var(--cor5);
+    color: var(--cor1);
+    transition: all .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+/* PADRÃO PRIMEIRA PARTE MAIN*/
+.main-one {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+main picture {
+    width: 100%;
+    position: relative; 
+}
+
+.main-img {
+    width: 100%;
+}
+
+.main-one .main-txt {
+    position: absolute;
+    max-width: 400px;
+    max-height: 400px;
+    margin: 80px 60px;
+}
+
+.main-one p {
+    font-weight: 800;
+    font-size: 1.1em;
+    color: var(--cor5);
+    margin-bottom: 15px;
+}
+
+.main-one h1 {
+    font-weight: 900;
+    font-size: 3em;
+    color: var(--cor5);
+    margin-bottom: 30px;
+}
+
+.main-one a {
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+    margin-right: 15px;
+    color: var(--cor1);
+    background-color: var(--cor5);
+    border-radius: 8px;
+    padding: 14px;
+    transition: all .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+/* INTERAÇÃO ANCORA DA LOJA MEN/WOMAN */
+
+.main-one a:hover {
+    background-color: var(--cor1);
+    color: var(--cor5);
+    transition: all .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+/* PADRÃO SEGUNDA PARTE MAIN*/
+
+.main-two {
+    margin: 3rem; 
+}
+
+.main-two img {
+    width: 180px;
+}
+
+.main-second {
+    max-width: 40rem;
+}
+
+.main-second p {
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+
+.main-second h1 {
+    font-size: 3.2rem;
+    font-weight: bolder;
+    line-height: 3.2rem;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin-top: 2rem;
+    padding: 0rem 2rem;
+}
+
+.icons h3 {
+    margin-bottom: 1rem;
+}
+
+.icons p {
+    font-weight: 400;
+}
+
+.icon-one {
+    margin: auto;
+    max-width: 230px;
+    min-height: 300px;
+    text-align: center;
+}
+
+.icon-two {
+    margin: auto;
+    max-width: 235px;
+    min-height: 300px;
+    text-align: center;
+}
+
+.icon-three {
+    margin: auto;
+    max-width: 230px;
+    min-height: 300px;
+    text-align: center;
+}
+
+.icon-four {
+    margin: auto;
+    max-width: 230px;
+    min-height: 300px;
+    text-align: center;
+}
+
+/* PADRÃO TERCEIRA PARTE MAIN*/
+
+.main-three {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 40px 0px;
+    width: 100%;
+    min-height: 900px;
+    padding: 2rem;
+    background-color: rgb(200, 235, 255);
+}
+
+.img1 img{
+    max-width: 500px;
+    max-height: 756px;
+}
+
+.colum2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    height: 756px;
+}
+
+.text-section3 {
+    width: 400px;
+    height: 350px;
+    padding-top: 50px;
+}
+
+.text-section3 h1 {
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    font-weight: 900;
+}
+
+.text-section3 h2 {
+    margin-bottom: .8rem;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.text-section3 p {
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.img2 img{
+    max-width: 650px;
+    min-height: 388px;
+}
+
+/* PADRÃO QUARTA PARTE MAIN*/
+
+.main-four {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+    padding: 50px;
+    min-height: 400px;
+}
+
+.card-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 300px;
+    min-height: 300px;
+    padding: 30px;
+    background-color: var(--cor1);
+    border-radius: 1rem;
+}
+
+.card-one p {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.card-one img {
+    max-width: 120px;
+    max-height: 120px;
+    margin-top: 20px;
+}
+
+.card-one a {
+    margin: auto;
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: var(--cor5);
+}
+
+.card-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 300px;
+    min-height: 300px;
+    padding: 30px;
+    background-color: var(--cor1);
+    border-radius: 1rem;
+}
+
+.card-two p {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.card-two img {
+    max-width: 120px;
+    max-height: 120px;
+    margin-top: 50px;
+}
+
+.card-two a {
+    margin: auto;
+    margin-top: 65px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: var(--cor5);
+}
+
+.card-three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 300px;
+    min-height: 300px;
+    padding: 30px;
+    background-color: var(--cor1);
+    border-radius: 1rem;
+}
+
+.card-three p {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.card-three img {
+    max-width: 120px;
+    max-height: 120px;
+    margin-top: 20px;
+}
+
+.card-three a {
+    margin: auto;
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: var(--cor5);
+}
+
+/* PADRÃO QUINTA PARTE MAIN*/
+
+.main-five {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 660px;
+    padding: 10px 80px;
+    background-color: var(--cor5);
+}
+
+.main-third {
+    max-width: 40rem;
+    min-height: 4rem;
+}
+
+.main-third p {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--cor0);
+}
+
+.main-third h1 {
+    font-size: 3.2rem;
+    font-weight: bolder;
+    line-height: 3.2rem;
+    color: var(--cor0);
+}
+
+.card-person {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    max-width: 100%;
+    min-height: 500px;
+    border-radius: 1rem;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: var(--cor0);
+}
+
+.card-p {
+    max-width: 350px;
+    margin-bottom: 10px;
+}
+
+.text-section5 {
+    max-width: 500px;
+    font-size: 2rem;
+}
+
+.text-section5 img {
+    margin-bottom: 30px;
+}
+
+.text-section5 p {
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.card-s {
+    max-width: 200px;
+}
+
+/* PADRÃO FOOTER*/
+footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0px 600px;
+    min-height: 140px;
+}
+
+footer >img {
+    max-width: 233px;
+    max-height: 60px;
+    margin: 0px 30px;
+}
+
+.social {
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px 30px;
+}
+
+.social p {
+    font-weight: bolder;
+}
+
+.social img {
+    max-width: 50px;
+    transition: .5s;
+}
+
+.social a img:hover {
+    scale: 1.1;
+    transition: .5s;
+}
+
