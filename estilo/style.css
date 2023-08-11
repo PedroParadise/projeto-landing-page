@@ -91,7 +91,7 @@ main picture {
     position: absolute;
     max-width: 400px;
     max-height: 400px;
-    margin: 80px 60px;
+    margin: 54px 15px;
 }
 
 .main-one p {
@@ -208,13 +208,13 @@ main picture {
     gap: 40px 0px;
     width: 100%;
     min-height: 900px;
-    padding: 2rem;
+    padding: 10px;
     background-color: rgb(200, 235, 255);
 }
 
 .img1 img{
-    max-width: 500px;
-    max-height: 756px;
+    min-width: 300px;
+    min-height: 490px;
 }
 
 .colum2 {
@@ -222,13 +222,13 @@ main picture {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    width: 500px;
-    height: 756px;
+    max-width: 500px;
+    max-height: 756px;
 }
 
 .text-section3 {
-    width: 400px;
-    height: 350px;
+    width: 300px;
+    min-height: 350px;
     padding-top: 50px;
 }
 
@@ -251,7 +251,7 @@ main picture {
 
 .img2 img{
     max-width: 650px;
-    min-height: 388px;
+    max-height: 388px;
 }
 
 /* PADRÃO QUARTA PARTE MAIN*/
@@ -366,7 +366,7 @@ main picture {
     flex-direction: column;
     justify-content: space-around;
     min-height: 660px;
-    padding: 10px 80px;
+    padding: 10px 10px;
     background-color: var(--cor5);
 }
 
@@ -394,7 +394,7 @@ main picture {
     align-items: center;
     justify-content: space-around;
     gap: 20px;
-    max-width: 100%;
+    min-width: 100%;
     min-height: 500px;
     border-radius: 1rem;
     margin-top: 10px;
@@ -403,7 +403,7 @@ main picture {
 }
 
 .card-p {
-    max-width: 350px;
+    max-width: 275px;
     margin-bottom: 10px;
 }
 
