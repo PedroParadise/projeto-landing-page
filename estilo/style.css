@@ -38,8 +38,7 @@ header {
 
 header img {
     margin-top: 10px;
-    max-width: 233px;
-    max-height: 60px;
+    max-width: 270px;
 }
 
 header .menu {
@@ -107,6 +106,7 @@ main picture {
     font-size: 3em;
     color: var(--cor5);
     margin-bottom: 30px;
+    text-shadow: 0px 0px 3px rgba(255, 255, 255, 0.616);
 }
 
 .main-one a {
